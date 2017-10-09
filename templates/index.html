@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <!--引入bootstrap文件,使用绝对路径导入,调试时会出现找不到路径的问题,解决方法:先输入/等待软件自动提示再选择 -->
+
+    <link rel="stylesheet" type="text/css" href="/static/jquery-easyui/themes/default/easyui.css">
+    <link rel="stylesheet" type="text/css" href="/static/jquery-easyui/themes/icon.css">
+    <link rel="stylesheet" type="text/css" href="/static/jquery-easyui/themes/color.css">
+
+    <script type="text/javascript" src="/static/js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="/static/jquery-easyui/jquery.easyui.min.js"></script>
+
+<script>
+    var pc;
+    //不要放在$(function(){});中
+    $.parser.onComplete = function () {
+        if (pc) clearTimeout(pc);
+        pc = setTimeout(closes, 500);
+    }
+    function closes() {
+        $('#loading').fadeOut('normal', function () {
+            $(this).remove();
+        });
+    }
+</script>
+</head>
+
+<body class="easyui-layout">
+<!--遮罩层,防止页面加载混乱-->
+<div id="loading" style="position:absolute;z-index:1000;top:0px;left:0px;width:100%;height:100%;background:#DDDDDB;text-align :center;padding-top:20%;">
+     <h1>loading...</h1>
+</div>
+
+
+<div data-options="region:'north',title:'North Title',split:false" style="height:100px;overflow: hidden">
+    <p style="font-family: 华文行楷;font-size: 25px">欢迎使用大病测算系统!</p>
+</div>
+
+<!--
+    <div data-options="region:'south',title:'South Title',split:false" style="height:25px;">@chinalife</div>
+ -->
+    <div data-options="region:'west',title:'导航',split:false" style="width:150px;">
+        <div class="easyui-panel" style="padding:5px;width: 100%;height:100%;">
+		<ul class="easyui-tree">
+			<li>
+				<span>中国人寿大病业务</span>
+				<ul>
+					<li data-options="state:'closed'">
+						<span>大病测算</span>
+						<ul>
+							<li>
+								<span><a href="#" onclick="addTab('查询','/welcome')">大病数据查询</a></span>
+							</li>
+                            <li>
+                                <span><a href="#" onclick="addTab('测算','/measuring')">大病测算</a></span>
+                            </li>
+							<li>
+								<span>生成报表</span>
+							</li>
+						</ul>
+					</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    </div>
+
+{#    <div id = "tt" class="easyui-tabs" title="home" data-options="region:'center',title:'主页'">#}
+<div id = "tt" class="easyui-tabs" data-options="region:'center'" style="height:100%;width: 100%;">
+        <div title="公告" style="width: 100%;height: 100%;">
+	</div>
+    </div>
+
+
+
+<!--动态增加选项卡-->
+    <script>
+        function addTab(title, url){
+	if ($('#tt').tabs('exists', title)){
+		$('#tt').tabs('select', title);
+	} else {
+		var content = '<iframe scrolling="hidden" frameborder="0"  src="'+url+'" style="width:100%;height:100%;"></iframe>';
+		$('#tt').tabs('add',{
+			title:title,
+			content:content,
+			closable:true
+		});
+	}
+}
+    </script>
+
+
+<!--确认是否关闭tab-->
+<script>
+$('#tt').tabs({
+  onBeforeClose: function(title,index){
+	var target = this;
+	$.messager.confirm('Confirm','你确定要关闭 '+title+" 页面吗?",function(r){
+		if (r){
+			var opts = $(target).tabs('options');
+			var bc = opts.onBeforeClose;
+			opts.onBeforeClose = function(){};  // allowed to close now
+			$(target).tabs('close',index);
+			opts.onBeforeClose = bc;  // restore the event function
+		}
+	});
+	return false;	// prevent from closing
+  }
+});
+</script>
+
+</body>
+</html>

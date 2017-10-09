@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html style="height: 100%;width: 100%">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/static/jquery-easyui/themes/default/easyui.css">
+    <link rel="stylesheet" type="text/css" href="/static/jquery-easyui/themes/icon.css">
+    <link rel="stylesheet" type="text/css" href="/static/jquery-easyui/themes/color.css">
+
+    <script type="text/javascript" src="/static/js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="/static/jquery-easyui/jquery.easyui.min.js"></script>
+    <title>测算</title>
+
+    <script>
+    var pc;
+    //不要放在$(function(){});中
+    $.parser.onComplete = function () {
+        if (pc) clearTimeout(pc);
+        pc = setTimeout(closes, 1000);
+    }
+    function closes() {
+        $('#loading').fadeOut('normal', function () {
+            $(this).remove();
+        });
+    }
+</script>
+
+
+    <style>
+    .p_input{
+        font-size: 15px;
+        font-family: 微软雅黑;
+    }
+    .data_input{
+        width: 100px;
+        height: 25px;
+    }
+</style>
+
+</head>
+
+
+<body style="width: 100%;height: 100%;">
+<!--遮罩层,防止页面加载混乱-->
+<div id="loading" style="position:absolute;z-index:1000;top:0px;left:0px;width:100%;height:100%;background:#DDDDDB;text-align :center;padding-top:20%;">
+     <h1>加载中....</h1>
+</div>
+
+
+<div style="padding:5px;background:#fafafa;width:100%;border:1px solid #ccc">
+    <p class="p_input">
+        年份:&nbsp;<input class="easyui-textbox data_input" id="year" data-options="prompt:'请输入年份'">&nbsp;&nbsp;
+        一级基本医疗给付:&nbsp;<input class="easyui-textbox data_input" id="first_pay" data-options="prompt:'请输入一级基本医疗给付'">&nbsp;&nbsp;
+        二级基本医疗给付:&nbsp;<input class="easyui-textbox data_input" id="second_pay" data-options="prompt:'请输入二级基本医疗给付'">&nbsp;&nbsp;
+        三级基本医疗给付:&nbsp;<input class="easyui-textbox data_input" id="third_pay" data-options="prompt:'请输入三级基本医疗给付'">&nbsp;&nbsp;
+        约定基本医疗给付:&nbsp;<input class="easyui-textbox data_input" id="appoint_pay" data-options="prompt:'请输入约定基本医疗给付'">&nbsp;&nbsp;
+        非定点基本医疗给付:&nbsp;<input class="easyui-textbox data_input" id="unappoint_pay" data-options="prompt:'请输入非定点基本医疗给付'">
+    </p>
+
+    <p class="p_input">
+        职工增长率:&nbsp;<input class="easyui-textbox data_input" id="first_pay" data-options="prompt:'请输入职工增长率'">&nbsp;&nbsp;
+    </p>
+
+    <p class="p_input">
+
+    </p>
+
+
+    <p>
+	<a id="measureData" href="#" class="easyui-linkbutton" iconCls="icon-ok">开始测算</a>
+    </p>
+</div>
+
+
+<div style="width: 100%;height: 100%;">
+    <table id = "dg_measuring" class="easyui-datagrid" style="height: 500px;width:100%">
+<thead>
+		<tr>
+            <th data-options="field:'年份'">年份</th>
+            <th data-options="field:'分段'">分段</th>
+            <th data-options="field:'结算类别'">结算类别</th>
+            <th data-options="field:'人数'">人数</th>
+            <th data-options="field:'医疗总费用'">医疗总费用</th>
+            <th data-options="field:'基本医疗支付'">基本医疗支付</th>
+            <th data-options="field:'范围内费用'">范围内费用</th>
+            <th data-options="field:'累计大病范围内费用'">累计大病范围内费用</th>
+            <th data-options="field:'大病支付'">大病支付</th>
+            <th data-options="field:'二挡赔付'">二挡赔付</th>
+		</tr>
+    </thead>
+</table>
+</div>
+
+<!--点击搜索按钮搜索数据-->
+<script>
+    $(document).ready(function () {
+        $('#measureData').bind("click",function () {
+            alert('66666');
+            var opts = $('#dg_measuring').datagrid("options");
+            opts.url = "/measureData";
+            $('#dg_measuring').datagrid("load");
+        });
+    })
+</script>
+<script>
+    $(document).ready(function () {
+        $('#dg_measuring').datagrid({
+        //url:'/selectData',默认不加载
+        method:'post',
+       //fitColumns: true,
+        striped:true,
+        pagination:true,
+        rownumbers:true,
+        pageList: [10,20,30,40,50,60],
+        pageSize: 10,
+    });
+    })
+</script>
+</body>
+</html>
