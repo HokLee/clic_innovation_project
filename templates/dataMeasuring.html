@@ -53,7 +53,7 @@
         二级基本医疗给付:&nbsp;<input class="easyui-textbox data_input" id="second_basic_pay" data-options="prompt:'请输入二级基本医疗给付'">&nbsp;&nbsp;
         三级基本医疗给付:&nbsp;<input class="easyui-textbox data_input" id="third_basic_pay" data-options="prompt:'请输入三级基本医疗给付'">&nbsp;&nbsp;
         约定基本医疗给付:&nbsp;<input class="easyui-textbox data_input" id="appoint_basic_pay" data-options="prompt:'请输入约定基本医疗给付'">&nbsp;&nbsp;
-        非定点基本医疗给付:&nbsp;<input class="easyui-textbox data_input" id="unappoint_basic_pay" data-options="prompt:'请输入非定点基本医疗给付'">
+        非定点基本医疗给付:&nbsp;<input class="easyui-textbox data_input" id="unfixed_basic_pay" data-options="prompt:'请输入非定点基本医疗给付'">
     </p>
 
     <p class="p_input">
@@ -96,7 +96,6 @@
     </p>
 </div>
 
-
 <div style="width: 100%;height: 100%;">
     <table id = "dg_measuring" class="easyui-datagrid" style="height: 500px;width:100%">
 <thead>
@@ -121,9 +120,45 @@
     $(document).ready(function () {
         $('#measureData').bind("click",function () {
             alert('66666');
-            var opts = $('#dg_measuring').datagrid("options");
-            opts.url = "/measureData";
-            $('#dg_measuring').datagrid("load");
+            var result = new Object();
+            result.year=document.getElementById("year").value;//年份
+            result.first_basic_pay=document.getElementById("first_basic_pay").value;//一级基本医疗给付
+            result.second_basic_pay =document.getElementById("second_basic_pay").value;//二级基本医疗给付
+            result.third_basic_pay =document.getElementById("third_basic_pay").value;//三级基本医疗给付
+            result.appoint_basic_pay =document.getElementById("appoint_basic_pay").value;//约定基本医疗给付
+            result.unfixed_basic_pay =document.getElementById("unfixed_basic_pay").value;//非定点基本医疗给付
+
+            result.staff_growth =document.getElementById("staff_growth").value;//职工增长率
+            result.resident_growth =document.getElementById("resident_growth").value;//居民增长率
+            result.accurate_growth =document.getElementById("accurate_growth").value;//精准扶贫增长率
+            result.every_year_growth =document.getElementById("every_year_growth").value;//每年增量
+            result.first_illness_top =document.getElementById("first_illness_top").value;//一档大病封顶
+            result.second_illness_top =document.getElementById("second_illness_top").value;//二档大病封顶
+
+            result.first_grade_first_section =document.getElementById("first_grade_first_section").value;//一档第一段
+            result.second_grade_first_section =document.getElementById("second_grade_first_section").value;//二档第一段
+            result.first_basic_illness_top =document.getElementById("first_basic_illness_top").value;//一档基本医疗封顶
+            result.second_basic_illness_top =document.getElementById("second_basic_illness_top").value;//二档基本医疗封顶
+            result.indemnity2017 =document.getElementById("indemnity2017").value;//2017年起赔
+            result.indemnity2018 =document.getElementById("indemnity2018").value;//2018年起赔
+
+            result.indemnity2019 =document.getElementById("indemnity2019").value;//2019年起赔
+            result.first_grade_pay =document.getElementById("first_grade_pay").value;//一级起付线
+            result.basic_grade_pay =document.getElementById("basic_grade_pay").value;//基层起付线
+            result.second_grade_pay =document.getElementById("second_grade_pay").value;//二级起付线
+            result.third_grade_pay =document.getElementById("third_grade_pay").value;//三级起付线
+            result.fixed_pay =document.getElementById("fixed_pay").value;//定点起付线
+            result.appoint_pay =document.getElementById("appoint_pay").value;//约定起付线
+
+            result.resident_unfixed_unappoint_pay =document.getElementById("resident_unfixed_unappoint_pay").value;//居民非定点非约定起付线
+            result.staff_unfixed_unappoint_pay =document.getElementById("staff_unfixed_unappoint_pay").value;//职工非定点非约定起付线
+
+            var data = JSON.stringify(result);
+            alert(data);
+
+{#            var opts = $('#dg_measuring').datagrid("options");#}
+{#            opts.url = "/measureData";#}
+{#            $('#dg_measuring').datagrid("load");#}
         });
     })
 </script>

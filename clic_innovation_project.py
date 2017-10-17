@@ -173,6 +173,38 @@ def dataMeasuring():
 #开始测算数据
 @app.route('/measureData',methods=['POST'])
 def measureData():
+
+    data = json.loads(request.get_data())
+    year = data["year"]
+    first_basic_pay = data["first_basic_pay"]
+    second_basic_pay = data["second_basic_pay"]
+    third_basic_pay = data["third_basic_pay"]
+    appoint_basic_pay = data["appoint_basic_pay"]
+    unfixed_basic_pay = data["unfixed_basic_pay"]
+    staff_growth = data["staff_growth"]
+    resident_growth = data["resident_growth"]
+    accurate_growth = data["accurate_growth"]
+    every_year_growth = data["every_year_growth"]
+    first_illness_top = data["first_illness_top"]
+    second_illness_top = data["second_illness_top"]
+    first_grade_first_section = data["first_grade_first_section"]
+    second_grade_first_section = data["second_grade_first_section"]
+    first_basic_illness_top = data["first_basic_illness_top"]
+    second_basic_illness_top = data["second_basic_illness_top"]
+    indemnity2017 = data["indemnity2017"]
+    indemnity2018 = data["indemnity2018"]
+    indemnity2019 = data["indemnity2019"]
+    first_grade_pay = data["first_grade_pay"]
+    basic_grade_pay = data["basic_grade_pay"]
+    second_grade_pay = data["second_grade_pay"]
+    third_grade_pay = data["third_grade_pay"]
+    fixed_pay = data["fixed_pay"]
+    appoint_pay = data["appoint_pay"]
+    resident_unfixed_unappoint_pay = data["resident_unfixed_unappoint_pay"]
+    staff_unfixed_unappoint_pay = data["staff_unfixed_unappoint_pay"]
+
+
+
     cnxn = pyodbc.connect(
         'DRIVER={SQL Server Native Client 11.0};SERVER=GD-XX-M7100Z\MSSQLSERVER2012;DATABASE=精准扶贫;UID=sa;PWD=123456')
     cursor = cnxn.cursor()
