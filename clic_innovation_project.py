@@ -49,9 +49,6 @@ def selectSpecialData():
     name = data["name"]
     ID = data["ID"]
 
-
-
-
     sql = "select top 100 * from 汇总 where 姓名 = '"+name+"'"
 
     cnxn = pyodbc.connect(

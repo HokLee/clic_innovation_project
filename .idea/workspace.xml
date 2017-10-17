@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="313733e6-6254-49fc-8f7c-dbb0bff2aeee" name="Default" comment="" />
+    <list default="true" id="313733e6-6254-49fc-8f7c-dbb0bff2aeee" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clic_innovation_project.py" afterPath="$PROJECT_DIR$/clic_innovation_project.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/dataMeasuring.html" afterPath="$PROJECT_DIR$/templates/dataMeasuring.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,38 +16,96 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/clic_innovation_project$clic_innovation_project.coverage" NAME="clic_innovation_project Coverage Results" MODIFIED="1506656296031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/clic_innovation_project$clic_innovation_project.coverage" NAME="clic_innovation_project Coverage Results" MODIFIED="1508207606537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="clic_innovation_project.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="clic_innovation_project.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/clic_innovation_project.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="517" column="0" lean-forward="true" selection-start-line="517" selection-start-column="0" selection-end-line="517" selection-end-column="0" />
+            <state relative-caret-position="238">
+              <caret line="214" column="20" lean-forward="false" selection-start-line="214" selection-start-column="9" selection-end-line="214" selection-end-column="20" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
-                <marker date="1506565084379" expanded="true" signature="802:824" ph="select * fro... students" />
-                <marker date="1506565084379" expanded="true" signature="1316:1353" ph="select * fro... 精准扶贫" />
-                <marker date="1506565084379" expanded="true" signature="1316:1362" ph="select * fro... 精准扶贫" />
-                <marker date="1506565084379" expanded="true" signature="3048:3085" ph="select * fro... 汇总" />
-                <marker date="1506565084379" expanded="true" signature="3048:3086" ph="select * fro... 汇总" />
-                <marker date="1506565084379" expanded="true" signature="3048:3114" ph="select * fro... 汇总" />
-                <marker date="1506565084379" expanded="true" signature="3048:3115" ph="select * fro... 汇总" />
-                <marker date="1506565084379" expanded="true" signature="3048:3138" ph="select * fro... 汇总" />
-                <marker date="1506565084379" expanded="true" signature="3155:3621" ph="SELECT TOP 1... " />
-                <marker date="1506565084379" expanded="true" signature="49312:49715" ph="select 年份,分段... ##tmp2" />
+                <marker date="1507530779258" expanded="true" signature="802:824" ph="select * fro... students" />
+                <marker date="1507530779258" expanded="true" signature="1313:1350" ph="select * fro... 精准扶贫" />
+                <marker date="1507530779258" expanded="true" signature="1313:1359" ph="select * fro... 精准扶贫" />
+                <marker date="1507530779258" expanded="true" signature="3045:3082" ph="select * fro... 汇总" />
+                <marker date="1507530779258" expanded="true" signature="3045:3083" ph="select * fro... 汇总" />
+                <marker date="1507530779258" expanded="true" signature="3045:3111" ph="select * fro... 汇总" />
+                <marker date="1507530779258" expanded="true" signature="3045:3112" ph="select * fro... 汇总" />
+                <marker date="1507530779258" expanded="true" signature="3045:3135" ph="select * fro... 汇总" />
+                <marker date="1507530779258" expanded="true" signature="3152:3618" ph="SELECT TOP 1... " />
+                <marker date="1507530779258" expanded="true" signature="49309:49712" ph="select 年份,分段... ##tmp2" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dataMeasuring.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="dataMeasuring.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/dataMeasuring.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1140">
-              <caret line="60" column="8" lean-forward="false" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
-              <folding />
+            <state relative-caret-position="409">
+              <caret line="92" column="0" lean-forward="true" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#2320#2326#0#HTML" expanded="true" />
+                <element signature="e#2326#2332#0#HTML" expanded="true" />
+                <element signature="e#2347#2353#0#HTML" expanded="true" />
+                <element signature="e#2448#2454#0#HTML" expanded="true" />
+                <element signature="e#2454#2460#0#HTML" expanded="true" />
+                <element signature="e#2580#2586#0#HTML" expanded="true" />
+                <element signature="e#2586#2592#0#HTML" expanded="true" />
+                <element signature="e#2708#2714#0#HTML" expanded="true" />
+                <element signature="e#2714#2720#0#HTML" expanded="true" />
+                <element signature="e#2840#2846#0#HTML" expanded="true" />
+                <element signature="e#2846#2852#0#HTML" expanded="true" />
+                <element signature="e#2973#2979#0#HTML" expanded="true" />
+                <element signature="e#2979#2985#0#HTML" expanded="true" />
+                <element signature="e#3145#3151#0#HTML" expanded="true" />
+                <element signature="e#3151#3157#0#HTML" expanded="true" />
+                <element signature="e#3172#3178#0#HTML" expanded="true" />
+                <element signature="e#3284#3290#0#HTML" expanded="true" />
+                <element signature="e#3290#3296#0#HTML" expanded="true" />
+                <element signature="e#3426#3432#0#HTML" expanded="true" />
+                <element signature="e#3432#3438#0#HTML" expanded="true" />
+                <element signature="e#3456#3462#0#HTML" expanded="true" />
+                <element signature="e#3569#3575#0#HTML" expanded="true" />
+                <element signature="e#3575#3581#0#HTML" expanded="true" />
+                <element signature="e#3598#3604#0#HTML" expanded="true" />
+                <element signature="e#3699#3705#0#HTML" expanded="true" />
+                <element signature="e#3705#3711#0#HTML" expanded="true" />
+                <element signature="e#3728#3734#0#HTML" expanded="true" />
+                <element signature="e#3829#3835#0#HTML" expanded="true" />
+                <element signature="e#3835#3841#0#HTML" expanded="true" />
+                <element signature="e#3893#3899#0#HTML" expanded="true" />
+                <element signature="e#3994#4000#0#HTML" expanded="true" />
+                <element signature="e#4000#4006#0#HTML" expanded="true" />
+                <element signature="e#4021#4027#0#HTML" expanded="true" />
+                <element signature="e#4119#4125#0#HTML" expanded="true" />
+                <element signature="e#4125#4131#0#HTML" expanded="true" />
+                <element signature="e#4146#4152#0#HTML" expanded="true" />
+                <element signature="e#4244#4250#0#HTML" expanded="true" />
+                <element signature="e#4250#4256#0#HTML" expanded="true" />
+                <element signature="e#4271#4277#0#HTML" expanded="true" />
+                <element signature="e#4370#4376#0#HTML" expanded="true" />
+                <element signature="e#4376#4382#0#HTML" expanded="true" />
+                <element signature="e#4397#4403#0#HTML" expanded="true" />
+                <element signature="e#4495#4501#0#HTML" expanded="true" />
+                <element signature="e#4501#4507#0#HTML" expanded="true" />
+                <element signature="e#4522#4528#0#HTML" expanded="true" />
+                <element signature="e#4614#4620#0#HTML" expanded="true" />
+                <element signature="e#4620#4626#0#HTML" expanded="true" />
+                <element signature="e#4641#4647#0#HTML" expanded="true" />
+                <element signature="e#4735#4741#0#HTML" expanded="true" />
+                <element signature="e#4741#4747#0#HTML" expanded="true" />
+                <element signature="e#4802#4808#0#HTML" expanded="true" />
+                <element signature="e#4921#4927#0#HTML" expanded="true" />
+                <element signature="e#4927#4933#0#HTML" expanded="true" />
+                <element signature="e#4954#4960#0#HTML" expanded="true" />
+                <element signature="e#5070#5076#0#HTML" expanded="true" />
+                <element signature="e#5076#5082#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -49,8 +113,8 @@
       <file leaf-file-name="welcome.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/welcome.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2584">
-              <caret line="136" column="24" lean-forward="false" selection-start-line="136" selection-start-column="24" selection-end-line="136" selection-end-column="24" />
+            <state relative-caret-position="257">
+              <caret line="70" column="41" lean-forward="true" selection-start-line="70" selection-start-column="41" selection-end-line="70" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -59,8 +123,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="836">
-              <caret line="44" column="79" lean-forward="false" selection-start-line="44" selection-start-column="79" selection-end-line="44" selection-end-column="79" />
+            <state relative-caret-position="19">
+              <caret line="76" column="62" lean-forward="false" selection-start-line="76" selection-start-column="62" selection-end-line="76" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -86,14 +150,17 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/templates/login.html" />
+        <option value="$PROJECT_DIR$/templates/welcome.html" />
+        <option value="$PROJECT_DIR$/clic_innovation_project.py" />
         <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/templates/dataMeasuring.html" />
-        <option value="$PROJECT_DIR$/clic_innovation_project.py" />
-        <option value="$PROJECT_DIR$/templates/welcome.html" />
       </list>
     </option>
   </component>
@@ -111,11 +178,12 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="-1" />
+    <option name="y" value="194" />
     <option name="width" value="1616" />
     <option name="height" value="876" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -214,14 +282,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.121875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37288135" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37206265" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -274,16 +343,16 @@
           <caret line="43" column="23" lean-forward="false" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="23" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
-            <marker date="1506565084379" expanded="true" signature="802:824" ph="select * fro... students" />
-            <marker date="1506565084379" expanded="true" signature="1316:1353" ph="select * fro... 精准扶贫" />
-            <marker date="1506565084379" expanded="true" signature="1316:1362" ph="select * fro... 精准扶贫" />
-            <marker date="1506565084379" expanded="true" signature="3048:3085" ph="select * fro... 汇总" />
-            <marker date="1506565084379" expanded="true" signature="3048:3086" ph="select * fro... 汇总" />
-            <marker date="1506565084379" expanded="true" signature="3048:3114" ph="select * fro... 汇总" />
-            <marker date="1506565084379" expanded="true" signature="3048:3115" ph="select * fro... 汇总" />
-            <marker date="1506565084379" expanded="true" signature="3048:3138" ph="select * fro... 汇总" />
-            <marker date="1506565084379" expanded="true" signature="3155:3621" ph="SELECT TOP 1... " />
-            <marker date="1506565084379" expanded="true" signature="49312:49715" ph="select 年份,分段... ##tmp2" />
+            <marker date="1507530779258" expanded="true" signature="802:824" ph="select * fro... students" />
+            <marker date="1507530779258" expanded="true" signature="1313:1350" ph="select * fro... 精准扶贫" />
+            <marker date="1507530779258" expanded="true" signature="1313:1359" ph="select * fro... 精准扶贫" />
+            <marker date="1507530779258" expanded="true" signature="3045:3082" ph="select * fro... 汇总" />
+            <marker date="1507530779258" expanded="true" signature="3045:3083" ph="select * fro... 汇总" />
+            <marker date="1507530779258" expanded="true" signature="3045:3111" ph="select * fro... 汇总" />
+            <marker date="1507530779258" expanded="true" signature="3045:3112" ph="select * fro... 汇总" />
+            <marker date="1507530779258" expanded="true" signature="3045:3135" ph="select * fro... 汇总" />
+            <marker date="1507530779258" expanded="true" signature="3152:3618" ph="SELECT TOP 1... " />
+            <marker date="1507530779258" expanded="true" signature="49309:49712" ph="select 年份,分段... ##tmp2" />
           </folding>
         </state>
       </provider>
@@ -318,16 +387,16 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
-            <marker date="1506565084379" expanded="true" signature="802:824" ph="select * fro... students" />
-            <marker date="1506565084379" expanded="true" signature="1316:1353" ph="select * fro... 精准扶贫" />
-            <marker date="1506565084379" expanded="true" signature="1316:1362" ph="select * fro... 精准扶贫" />
-            <marker date="1506565084379" expanded="true" signature="3048:3085" ph="select * fro... 汇总" />
-            <marker date="1506565084379" expanded="true" signature="3048:3086" ph="select * fro... 汇总" />
-            <marker date="1506565084379" expanded="true" signature="3048:3114" ph="select * fro... 汇总" />
-            <marker date="1506565084379" expanded="true" signature="3048:3115" ph="select * fro... 汇总" />
-            <marker date="1506565084379" expanded="true" signature="3048:3138" ph="select * fro... 汇总" />
-            <marker date="1506565084379" expanded="true" signature="3155:3621" ph="SELECT TOP 1... " />
-            <marker date="1506565084379" expanded="true" signature="49312:49715" ph="select 年份,分段... ##tmp2" />
+            <marker date="1507530779258" expanded="true" signature="802:824" ph="select * fro... students" />
+            <marker date="1507530779258" expanded="true" signature="1313:1350" ph="select * fro... 精准扶贫" />
+            <marker date="1507530779258" expanded="true" signature="1313:1359" ph="select * fro... 精准扶贫" />
+            <marker date="1507530779258" expanded="true" signature="3045:3082" ph="select * fro... 汇总" />
+            <marker date="1507530779258" expanded="true" signature="3045:3083" ph="select * fro... 汇总" />
+            <marker date="1507530779258" expanded="true" signature="3045:3111" ph="select * fro... 汇总" />
+            <marker date="1507530779258" expanded="true" signature="3045:3112" ph="select * fro... 汇总" />
+            <marker date="1507530779258" expanded="true" signature="3045:3135" ph="select * fro... 汇总" />
+            <marker date="1507530779258" expanded="true" signature="3152:3618" ph="SELECT TOP 1... " />
+            <marker date="1507530779258" expanded="true" signature="49309:49712" ph="select 年份,分段... ##tmp2" />
           </folding>
         </state>
       </provider>
@@ -362,16 +431,16 @@
           <caret line="27" column="12" lean-forward="false" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
-            <marker date="1506565084379" expanded="true" signature="802:824" ph="select * fro... students" />
-            <marker date="1506565084379" expanded="true" signature="1316:1353" ph="select * fro... 精准扶贫" />
-            <marker date="1506565084379" expanded="true" signature="1316:1362" ph="select * fro... 精准扶贫" />
-            <marker date="1506565084379" expanded="true" signature="3048:3085" ph="select * fro... 汇总" />
-            <marker date="1506565084379" expanded="true" signature="3048:3086" ph="select * fro... 汇总" />
-            <marker date="1506565084379" expanded="true" signature="3048:3114" ph="select * fro... 汇总" />
-            <marker date="1506565084379" expanded="true" signature="3048:3115" ph="select * fro... 汇总" />
-            <marker date="1506565084379" expanded="true" signature="3048:3138" ph="select * fro... 汇总" />
-            <marker date="1506565084379" expanded="true" signature="3155:3621" ph="SELECT TOP 1... " />
-            <marker date="1506565084379" expanded="true" signature="49312:49715" ph="select 年份,分段... ##tmp2" />
+            <marker date="1507530779258" expanded="true" signature="802:824" ph="select * fro... students" />
+            <marker date="1507530779258" expanded="true" signature="1313:1350" ph="select * fro... 精准扶贫" />
+            <marker date="1507530779258" expanded="true" signature="1313:1359" ph="select * fro... 精准扶贫" />
+            <marker date="1507530779258" expanded="true" signature="3045:3082" ph="select * fro... 汇总" />
+            <marker date="1507530779258" expanded="true" signature="3045:3083" ph="select * fro... 汇总" />
+            <marker date="1507530779258" expanded="true" signature="3045:3111" ph="select * fro... 汇总" />
+            <marker date="1507530779258" expanded="true" signature="3045:3112" ph="select * fro... 汇总" />
+            <marker date="1507530779258" expanded="true" signature="3045:3135" ph="select * fro... 汇总" />
+            <marker date="1507530779258" expanded="true" signature="3152:3618" ph="SELECT TOP 1... " />
+            <marker date="1507530779258" expanded="true" signature="49309:49712" ph="select 年份,分段... ##tmp2" />
           </folding>
         </state>
       </provider>
@@ -406,16 +475,16 @@
           <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
-            <marker date="1506565084379" expanded="true" signature="802:824" ph="select * fro... students" />
-            <marker date="1506565084379" expanded="true" signature="1316:1353" ph="select * fro... 精准扶贫" />
-            <marker date="1506565084379" expanded="true" signature="1316:1362" ph="select * fro... 精准扶贫" />
-            <marker date="1506565084379" expanded="true" signature="3048:3085" ph="select * fro... 汇总" />
-            <marker date="1506565084379" expanded="true" signature="3048:3086" ph="select * fro... 汇总" />
-            <marker date="1506565084379" expanded="true" signature="3048:3114" ph="select * fro... 汇总" />
-            <marker date="1506565084379" expanded="true" signature="3048:3115" ph="select * fro... 汇总" />
-            <marker date="1506565084379" expanded="true" signature="3048:3138" ph="select * fro... 汇总" />
-            <marker date="1506565084379" expanded="true" signature="3155:3621" ph="SELECT TOP 1... " />
-            <marker date="1506565084379" expanded="true" signature="49312:49715" ph="select 年份,分段... ##tmp2" />
+            <marker date="1507530779258" expanded="true" signature="802:824" ph="select * fro... students" />
+            <marker date="1507530779258" expanded="true" signature="1313:1350" ph="select * fro... 精准扶贫" />
+            <marker date="1507530779258" expanded="true" signature="1313:1359" ph="select * fro... 精准扶贫" />
+            <marker date="1507530779258" expanded="true" signature="3045:3082" ph="select * fro... 汇总" />
+            <marker date="1507530779258" expanded="true" signature="3045:3083" ph="select * fro... 汇总" />
+            <marker date="1507530779258" expanded="true" signature="3045:3111" ph="select * fro... 汇总" />
+            <marker date="1507530779258" expanded="true" signature="3045:3112" ph="select * fro... 汇总" />
+            <marker date="1507530779258" expanded="true" signature="3045:3135" ph="select * fro... 汇总" />
+            <marker date="1507530779258" expanded="true" signature="3152:3618" ph="SELECT TOP 1... " />
+            <marker date="1507530779258" expanded="true" signature="49309:49712" ph="select 年份,分段... ##tmp2" />
           </folding>
         </state>
       </provider>
@@ -450,16 +519,16 @@
           <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
-            <marker date="1506565084379" expanded="true" signature="802:824" ph="select * fro... students" />
-            <marker date="1506565084379" expanded="true" signature="1316:1353" ph="select * fro... 精准扶贫" />
-            <marker date="1506565084379" expanded="true" signature="1316:1362" ph="select * fro... 精准扶贫" />
-            <marker date="1506565084379" expanded="true" signature="3048:3085" ph="select * fro... 汇总" />
-            <marker date="1506565084379" expanded="true" signature="3048:3086" ph="select * fro... 汇总" />
-            <marker date="1506565084379" expanded="true" signature="3048:3114" ph="select * fro... 汇总" />
-            <marker date="1506565084379" expanded="true" signature="3048:3115" ph="select * fro... 汇总" />
-            <marker date="1506565084379" expanded="true" signature="3048:3138" ph="select * fro... 汇总" />
-            <marker date="1506565084379" expanded="true" signature="3155:3621" ph="SELECT TOP 1... " />
-            <marker date="1506565084379" expanded="true" signature="49312:49715" ph="select 年份,分段... ##tmp2" />
+            <marker date="1507530779258" expanded="true" signature="802:824" ph="select * fro... students" />
+            <marker date="1507530779258" expanded="true" signature="1313:1350" ph="select * fro... 精准扶贫" />
+            <marker date="1507530779258" expanded="true" signature="1313:1359" ph="select * fro... 精准扶贫" />
+            <marker date="1507530779258" expanded="true" signature="3045:3082" ph="select * fro... 汇总" />
+            <marker date="1507530779258" expanded="true" signature="3045:3083" ph="select * fro... 汇总" />
+            <marker date="1507530779258" expanded="true" signature="3045:3111" ph="select * fro... 汇总" />
+            <marker date="1507530779258" expanded="true" signature="3045:3112" ph="select * fro... 汇总" />
+            <marker date="1507530779258" expanded="true" signature="3045:3135" ph="select * fro... 汇总" />
+            <marker date="1507530779258" expanded="true" signature="3152:3618" ph="SELECT TOP 1... " />
+            <marker date="1507530779258" expanded="true" signature="49309:49712" ph="select 年份,分段... ##tmp2" />
           </folding>
         </state>
       </provider>
@@ -494,16 +563,16 @@
           <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
-            <marker date="1506565084379" expanded="true" signature="802:824" ph="select * fro... students" />
-            <marker date="1506565084379" expanded="true" signature="1316:1353" ph="select * fro... 精准扶贫" />
-            <marker date="1506565084379" expanded="true" signature="1316:1362" ph="select * fro... 精准扶贫" />
-            <marker date="1506565084379" expanded="true" signature="3048:3085" ph="select * fro... 汇总" />
-            <marker date="1506565084379" expanded="true" signature="3048:3086" ph="select * fro... 汇总" />
-            <marker date="1506565084379" expanded="true" signature="3048:3114" ph="select * fro... 汇总" />
-            <marker date="1506565084379" expanded="true" signature="3048:3115" ph="select * fro... 汇总" />
-            <marker date="1506565084379" expanded="true" signature="3048:3138" ph="select * fro... 汇总" />
-            <marker date="1506565084379" expanded="true" signature="3155:3621" ph="SELECT TOP 1... " />
-            <marker date="1506565084379" expanded="true" signature="49312:49715" ph="select 年份,分段... ##tmp2" />
+            <marker date="1507530779258" expanded="true" signature="802:824" ph="select * fro... students" />
+            <marker date="1507530779258" expanded="true" signature="1313:1350" ph="select * fro... 精准扶贫" />
+            <marker date="1507530779258" expanded="true" signature="1313:1359" ph="select * fro... 精准扶贫" />
+            <marker date="1507530779258" expanded="true" signature="3045:3082" ph="select * fro... 汇总" />
+            <marker date="1507530779258" expanded="true" signature="3045:3083" ph="select * fro... 汇总" />
+            <marker date="1507530779258" expanded="true" signature="3045:3111" ph="select * fro... 汇总" />
+            <marker date="1507530779258" expanded="true" signature="3045:3112" ph="select * fro... 汇总" />
+            <marker date="1507530779258" expanded="true" signature="3045:3135" ph="select * fro... 汇总" />
+            <marker date="1507530779258" expanded="true" signature="3152:3618" ph="SELECT TOP 1... " />
+            <marker date="1507530779258" expanded="true" signature="49309:49712" ph="select 年份,分段... ##tmp2" />
           </folding>
         </state>
       </provider>
@@ -538,16 +607,16 @@
           <caret line="40" column="26" lean-forward="false" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
-            <marker date="1506565084379" expanded="true" signature="802:824" ph="select * fro... students" />
-            <marker date="1506565084379" expanded="true" signature="1316:1353" ph="select * fro... 精准扶贫" />
-            <marker date="1506565084379" expanded="true" signature="1316:1362" ph="select * fro... 精准扶贫" />
-            <marker date="1506565084379" expanded="true" signature="3048:3085" ph="select * fro... 汇总" />
-            <marker date="1506565084379" expanded="true" signature="3048:3086" ph="select * fro... 汇总" />
-            <marker date="1506565084379" expanded="true" signature="3048:3114" ph="select * fro... 汇总" />
-            <marker date="1506565084379" expanded="true" signature="3048:3115" ph="select * fro... 汇总" />
-            <marker date="1506565084379" expanded="true" signature="3048:3138" ph="select * fro... 汇总" />
-            <marker date="1506565084379" expanded="true" signature="3155:3621" ph="SELECT TOP 1... " />
-            <marker date="1506565084379" expanded="true" signature="49312:49715" ph="select 年份,分段... ##tmp2" />
+            <marker date="1507530779258" expanded="true" signature="802:824" ph="select * fro... students" />
+            <marker date="1507530779258" expanded="true" signature="1313:1350" ph="select * fro... 精准扶贫" />
+            <marker date="1507530779258" expanded="true" signature="1313:1359" ph="select * fro... 精准扶贫" />
+            <marker date="1507530779258" expanded="true" signature="3045:3082" ph="select * fro... 汇总" />
+            <marker date="1507530779258" expanded="true" signature="3045:3083" ph="select * fro... 汇总" />
+            <marker date="1507530779258" expanded="true" signature="3045:3111" ph="select * fro... 汇总" />
+            <marker date="1507530779258" expanded="true" signature="3045:3112" ph="select * fro... 汇总" />
+            <marker date="1507530779258" expanded="true" signature="3045:3135" ph="select * fro... 汇总" />
+            <marker date="1507530779258" expanded="true" signature="3152:3618" ph="SELECT TOP 1... " />
+            <marker date="1507530779258" expanded="true" signature="49309:49712" ph="select 年份,分段... ##tmp2" />
           </folding>
         </state>
       </provider>
@@ -582,16 +651,16 @@
           <caret line="40" column="26" lean-forward="false" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
-            <marker date="1506565084379" expanded="true" signature="802:824" ph="select * fro... students" />
-            <marker date="1506565084379" expanded="true" signature="1316:1353" ph="select * fro... 精准扶贫" />
-            <marker date="1506565084379" expanded="true" signature="1316:1362" ph="select * fro... 精准扶贫" />
-            <marker date="1506565084379" expanded="true" signature="3048:3085" ph="select * fro... 汇总" />
-            <marker date="1506565084379" expanded="true" signature="3048:3086" ph="select * fro... 汇总" />
-            <marker date="1506565084379" expanded="true" signature="3048:3114" ph="select * fro... 汇总" />
-            <marker date="1506565084379" expanded="true" signature="3048:3115" ph="select * fro... 汇总" />
-            <marker date="1506565084379" expanded="true" signature="3048:3138" ph="select * fro... 汇总" />
-            <marker date="1506565084379" expanded="true" signature="3155:3621" ph="SELECT TOP 1... " />
-            <marker date="1506565084379" expanded="true" signature="49312:49715" ph="select 年份,分段... ##tmp2" />
+            <marker date="1507530779258" expanded="true" signature="802:824" ph="select * fro... students" />
+            <marker date="1507530779258" expanded="true" signature="1313:1350" ph="select * fro... 精准扶贫" />
+            <marker date="1507530779258" expanded="true" signature="1313:1359" ph="select * fro... 精准扶贫" />
+            <marker date="1507530779258" expanded="true" signature="3045:3082" ph="select * fro... 汇总" />
+            <marker date="1507530779258" expanded="true" signature="3045:3083" ph="select * fro... 汇总" />
+            <marker date="1507530779258" expanded="true" signature="3045:3111" ph="select * fro... 汇总" />
+            <marker date="1507530779258" expanded="true" signature="3045:3112" ph="select * fro... 汇总" />
+            <marker date="1507530779258" expanded="true" signature="3045:3135" ph="select * fro... 汇总" />
+            <marker date="1507530779258" expanded="true" signature="3152:3618" ph="SELECT TOP 1... " />
+            <marker date="1507530779258" expanded="true" signature="49309:49712" ph="select 年份,分段... ##tmp2" />
           </folding>
         </state>
       </provider>
@@ -626,16 +695,16 @@
           <caret line="24" column="20" lean-forward="false" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
-            <marker date="1506565084379" expanded="true" signature="802:824" ph="select * fro... students" />
-            <marker date="1506565084379" expanded="true" signature="1316:1353" ph="select * fro... 精准扶贫" />
-            <marker date="1506565084379" expanded="true" signature="1316:1362" ph="select * fro... 精准扶贫" />
-            <marker date="1506565084379" expanded="true" signature="3048:3085" ph="select * fro... 汇总" />
-            <marker date="1506565084379" expanded="true" signature="3048:3086" ph="select * fro... 汇总" />
-            <marker date="1506565084379" expanded="true" signature="3048:3114" ph="select * fro... 汇总" />
-            <marker date="1506565084379" expanded="true" signature="3048:3115" ph="select * fro... 汇总" />
-            <marker date="1506565084379" expanded="true" signature="3048:3138" ph="select * fro... 汇总" />
-            <marker date="1506565084379" expanded="true" signature="3155:3621" ph="SELECT TOP 1... " />
-            <marker date="1506565084379" expanded="true" signature="49312:49715" ph="select 年份,分段... ##tmp2" />
+            <marker date="1507530779258" expanded="true" signature="802:824" ph="select * fro... students" />
+            <marker date="1507530779258" expanded="true" signature="1313:1350" ph="select * fro... 精准扶贫" />
+            <marker date="1507530779258" expanded="true" signature="1313:1359" ph="select * fro... 精准扶贫" />
+            <marker date="1507530779258" expanded="true" signature="3045:3082" ph="select * fro... 汇总" />
+            <marker date="1507530779258" expanded="true" signature="3045:3083" ph="select * fro... 汇总" />
+            <marker date="1507530779258" expanded="true" signature="3045:3111" ph="select * fro... 汇总" />
+            <marker date="1507530779258" expanded="true" signature="3045:3112" ph="select * fro... 汇总" />
+            <marker date="1507530779258" expanded="true" signature="3045:3135" ph="select * fro... 汇总" />
+            <marker date="1507530779258" expanded="true" signature="3152:3618" ph="SELECT TOP 1... " />
+            <marker date="1507530779258" expanded="true" signature="49309:49712" ph="select 年份,分段... ##tmp2" />
           </folding>
         </state>
       </provider>
@@ -662,16 +731,16 @@
           <caret line="24" column="20" lean-forward="false" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
-            <marker date="1506565084379" expanded="true" signature="802:824" ph="select * fro... students" />
-            <marker date="1506565084379" expanded="true" signature="1316:1353" ph="select * fro... 精准扶贫" />
-            <marker date="1506565084379" expanded="true" signature="1316:1362" ph="select * fro... 精准扶贫" />
-            <marker date="1506565084379" expanded="true" signature="3048:3085" ph="select * fro... 汇总" />
-            <marker date="1506565084379" expanded="true" signature="3048:3086" ph="select * fro... 汇总" />
-            <marker date="1506565084379" expanded="true" signature="3048:3114" ph="select * fro... 汇总" />
-            <marker date="1506565084379" expanded="true" signature="3048:3115" ph="select * fro... 汇总" />
-            <marker date="1506565084379" expanded="true" signature="3048:3138" ph="select * fro... 汇总" />
-            <marker date="1506565084379" expanded="true" signature="3155:3621" ph="SELECT TOP 1... " />
-            <marker date="1506565084379" expanded="true" signature="49312:49715" ph="select 年份,分段... ##tmp2" />
+            <marker date="1507530779258" expanded="true" signature="802:824" ph="select * fro... students" />
+            <marker date="1507530779258" expanded="true" signature="1313:1350" ph="select * fro... 精准扶贫" />
+            <marker date="1507530779258" expanded="true" signature="1313:1359" ph="select * fro... 精准扶贫" />
+            <marker date="1507530779258" expanded="true" signature="3045:3082" ph="select * fro... 汇总" />
+            <marker date="1507530779258" expanded="true" signature="3045:3083" ph="select * fro... 汇总" />
+            <marker date="1507530779258" expanded="true" signature="3045:3111" ph="select * fro... 汇总" />
+            <marker date="1507530779258" expanded="true" signature="3045:3112" ph="select * fro... 汇总" />
+            <marker date="1507530779258" expanded="true" signature="3045:3135" ph="select * fro... 汇总" />
+            <marker date="1507530779258" expanded="true" signature="3152:3618" ph="SELECT TOP 1... " />
+            <marker date="1507530779258" expanded="true" signature="49309:49712" ph="select 年份,分段... ##tmp2" />
           </folding>
         </state>
       </provider>
@@ -698,16 +767,16 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
-            <marker date="1506565084379" expanded="true" signature="802:824" ph="select * fro... students" />
-            <marker date="1506565084379" expanded="true" signature="1316:1353" ph="select * fro... 精准扶贫" />
-            <marker date="1506565084379" expanded="true" signature="1316:1362" ph="select * fro... 精准扶贫" />
-            <marker date="1506565084379" expanded="true" signature="3048:3085" ph="select * fro... 汇总" />
-            <marker date="1506565084379" expanded="true" signature="3048:3086" ph="select * fro... 汇总" />
-            <marker date="1506565084379" expanded="true" signature="3048:3114" ph="select * fro... 汇总" />
-            <marker date="1506565084379" expanded="true" signature="3048:3115" ph="select * fro... 汇总" />
-            <marker date="1506565084379" expanded="true" signature="3048:3138" ph="select * fro... 汇总" />
-            <marker date="1506565084379" expanded="true" signature="3155:3621" ph="SELECT TOP 1... " />
-            <marker date="1506565084379" expanded="true" signature="49312:49715" ph="select 年份,分段... ##tmp2" />
+            <marker date="1507530779258" expanded="true" signature="802:824" ph="select * fro... students" />
+            <marker date="1507530779258" expanded="true" signature="1313:1350" ph="select * fro... 精准扶贫" />
+            <marker date="1507530779258" expanded="true" signature="1313:1359" ph="select * fro... 精准扶贫" />
+            <marker date="1507530779258" expanded="true" signature="3045:3082" ph="select * fro... 汇总" />
+            <marker date="1507530779258" expanded="true" signature="3045:3083" ph="select * fro... 汇总" />
+            <marker date="1507530779258" expanded="true" signature="3045:3111" ph="select * fro... 汇总" />
+            <marker date="1507530779258" expanded="true" signature="3045:3112" ph="select * fro... 汇总" />
+            <marker date="1507530779258" expanded="true" signature="3045:3135" ph="select * fro... 汇总" />
+            <marker date="1507530779258" expanded="true" signature="3152:3618" ph="SELECT TOP 1... " />
+            <marker date="1507530779258" expanded="true" signature="49309:49712" ph="select 年份,分段... ##tmp2" />
           </folding>
         </state>
       </provider>
@@ -769,46 +838,104 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/clic_innovation_project.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="214" column="20" lean-forward="false" selection-start-line="214" selection-start-column="9" selection-end-line="214" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <marker date="1507530779258" expanded="true" signature="802:824" ph="select * fro... students" />
+            <marker date="1507530779258" expanded="true" signature="1313:1350" ph="select * fro... 精准扶贫" />
+            <marker date="1507530779258" expanded="true" signature="1313:1359" ph="select * fro... 精准扶贫" />
+            <marker date="1507530779258" expanded="true" signature="3045:3082" ph="select * fro... 汇总" />
+            <marker date="1507530779258" expanded="true" signature="3045:3083" ph="select * fro... 汇总" />
+            <marker date="1507530779258" expanded="true" signature="3045:3111" ph="select * fro... 汇总" />
+            <marker date="1507530779258" expanded="true" signature="3045:3112" ph="select * fro... 汇总" />
+            <marker date="1507530779258" expanded="true" signature="3045:3135" ph="select * fro... 汇总" />
+            <marker date="1507530779258" expanded="true" signature="3152:3618" ph="SELECT TOP 1... " />
+            <marker date="1507530779258" expanded="true" signature="49309:49712" ph="select 年份,分段... ##tmp2" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="44" column="79" lean-forward="false" selection-start-line="44" selection-start-column="79" selection-end-line="44" selection-end-column="79" />
+        <state relative-caret-position="19">
+          <caret line="76" column="62" lean-forward="false" selection-start-line="76" selection-start-column="62" selection-end-line="76" selection-end-column="62" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/welcome.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2584">
-          <caret line="136" column="24" lean-forward="false" selection-start-line="136" selection-start-column="24" selection-end-line="136" selection-end-column="24" />
+        <state relative-caret-position="257">
+          <caret line="70" column="41" lean-forward="true" selection-start-line="70" selection-start-column="41" selection-end-line="70" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/dataMeasuring.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="60" column="8" lean-forward="false" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clic_innovation_project.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="517" column="0" lean-forward="true" selection-start-line="517" selection-start-column="0" selection-end-line="517" selection-end-column="0" />
+        <state relative-caret-position="409">
+          <caret line="92" column="0" lean-forward="true" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
-            <marker date="1506565084379" expanded="true" signature="802:824" ph="select * fro... students" />
-            <marker date="1506565084379" expanded="true" signature="1316:1353" ph="select * fro... 精准扶贫" />
-            <marker date="1506565084379" expanded="true" signature="1316:1362" ph="select * fro... 精准扶贫" />
-            <marker date="1506565084379" expanded="true" signature="3048:3085" ph="select * fro... 汇总" />
-            <marker date="1506565084379" expanded="true" signature="3048:3086" ph="select * fro... 汇总" />
-            <marker date="1506565084379" expanded="true" signature="3048:3114" ph="select * fro... 汇总" />
-            <marker date="1506565084379" expanded="true" signature="3048:3115" ph="select * fro... 汇总" />
-            <marker date="1506565084379" expanded="true" signature="3048:3138" ph="select * fro... 汇总" />
-            <marker date="1506565084379" expanded="true" signature="3155:3621" ph="SELECT TOP 1... " />
-            <marker date="1506565084379" expanded="true" signature="49312:49715" ph="select 年份,分段... ##tmp2" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#2320#2326#0#HTML" expanded="true" />
+            <element signature="e#2326#2332#0#HTML" expanded="true" />
+            <element signature="e#2347#2353#0#HTML" expanded="true" />
+            <element signature="e#2448#2454#0#HTML" expanded="true" />
+            <element signature="e#2454#2460#0#HTML" expanded="true" />
+            <element signature="e#2580#2586#0#HTML" expanded="true" />
+            <element signature="e#2586#2592#0#HTML" expanded="true" />
+            <element signature="e#2708#2714#0#HTML" expanded="true" />
+            <element signature="e#2714#2720#0#HTML" expanded="true" />
+            <element signature="e#2840#2846#0#HTML" expanded="true" />
+            <element signature="e#2846#2852#0#HTML" expanded="true" />
+            <element signature="e#2973#2979#0#HTML" expanded="true" />
+            <element signature="e#2979#2985#0#HTML" expanded="true" />
+            <element signature="e#3145#3151#0#HTML" expanded="true" />
+            <element signature="e#3151#3157#0#HTML" expanded="true" />
+            <element signature="e#3172#3178#0#HTML" expanded="true" />
+            <element signature="e#3284#3290#0#HTML" expanded="true" />
+            <element signature="e#3290#3296#0#HTML" expanded="true" />
+            <element signature="e#3426#3432#0#HTML" expanded="true" />
+            <element signature="e#3432#3438#0#HTML" expanded="true" />
+            <element signature="e#3456#3462#0#HTML" expanded="true" />
+            <element signature="e#3569#3575#0#HTML" expanded="true" />
+            <element signature="e#3575#3581#0#HTML" expanded="true" />
+            <element signature="e#3598#3604#0#HTML" expanded="true" />
+            <element signature="e#3699#3705#0#HTML" expanded="true" />
+            <element signature="e#3705#3711#0#HTML" expanded="true" />
+            <element signature="e#3728#3734#0#HTML" expanded="true" />
+            <element signature="e#3829#3835#0#HTML" expanded="true" />
+            <element signature="e#3835#3841#0#HTML" expanded="true" />
+            <element signature="e#3893#3899#0#HTML" expanded="true" />
+            <element signature="e#3994#4000#0#HTML" expanded="true" />
+            <element signature="e#4000#4006#0#HTML" expanded="true" />
+            <element signature="e#4021#4027#0#HTML" expanded="true" />
+            <element signature="e#4119#4125#0#HTML" expanded="true" />
+            <element signature="e#4125#4131#0#HTML" expanded="true" />
+            <element signature="e#4146#4152#0#HTML" expanded="true" />
+            <element signature="e#4244#4250#0#HTML" expanded="true" />
+            <element signature="e#4250#4256#0#HTML" expanded="true" />
+            <element signature="e#4271#4277#0#HTML" expanded="true" />
+            <element signature="e#4370#4376#0#HTML" expanded="true" />
+            <element signature="e#4376#4382#0#HTML" expanded="true" />
+            <element signature="e#4397#4403#0#HTML" expanded="true" />
+            <element signature="e#4495#4501#0#HTML" expanded="true" />
+            <element signature="e#4501#4507#0#HTML" expanded="true" />
+            <element signature="e#4522#4528#0#HTML" expanded="true" />
+            <element signature="e#4614#4620#0#HTML" expanded="true" />
+            <element signature="e#4620#4626#0#HTML" expanded="true" />
+            <element signature="e#4641#4647#0#HTML" expanded="true" />
+            <element signature="e#4735#4741#0#HTML" expanded="true" />
+            <element signature="e#4741#4747#0#HTML" expanded="true" />
+            <element signature="e#4802#4808#0#HTML" expanded="true" />
+            <element signature="e#4921#4927#0#HTML" expanded="true" />
+            <element signature="e#4927#4933#0#HTML" expanded="true" />
+            <element signature="e#4954#4960#0#HTML" expanded="true" />
+            <element signature="e#5070#5076#0#HTML" expanded="true" />
+            <element signature="e#5076#5082#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
