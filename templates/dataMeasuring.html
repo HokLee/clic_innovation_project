@@ -155,6 +155,14 @@
 
             var data = JSON.stringify(result);
             alert(data);
+            $.ajax({
+                url:"/measureData",
+                type: "POST",
+                data: data,
+                success:function (result1) {
+                    var opts = $('#dg_measuring').datagrid('loadData',result1);
+                }
+            });
 
 {#            var opts = $('#dg_measuring').datagrid("options");#}
 {#            opts.url = "/measureData";#}
