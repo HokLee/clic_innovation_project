@@ -219,36 +219,7 @@ def measureData():
     @一档第一段 float,@二档第一段 float,@一级起付线 float,@二级起付线 float,@三级起付线 float,@基层起付线 float,@定点起付线 float,@约定起付线 float,
     @居民非定点非约定起付线 float,@职工非定点非约定起付线 float,@2018年起赔 float,@2019年起赔 float,
     @每年增量 float,@定点医疗机构给付 float,@约定医疗机构给付 float,@非定点医疗机构给付 float,@一级基本医疗给付 float,@约定基本医疗给付 float,@非定点基本医疗给付 float,
-    @精准扶贫增长率 float,@2017年精准扶贫增长率 float,@2018年精准扶贫增长率 float,@2019年精准扶贫增长率 float'''
-    +'set @年份= ' + year
-    +"set @一级基本医疗给付='" + first_basic_pay + "'"
-    +"set @二级基本医疗给付='" + second_basic_pay + "'"
-    +"set @三级基本医疗给付='" + third_basic_pay + "'"
-    +"set @约定基本医疗给付='" + appoint_basic_pay + "'"
-    +"set @非定点基本医疗给付='" + unfixed_basic_pay + "'"
-    +"set @职工增长率='" + staff_growth + "'"
-    +"set @居民增长率='" + resident_growth + "'"
-    +"set @精准扶贫增长率='" + accurate_growth + "'"
-    +"set @每年增量='" + every_year_growth + "'"
-    +"set @一档大病封顶='" + first_illness_top + "'"
-    +"set @二档大病封顶='" + second_illness_top + "'"
-    +"set @一档第一段='" + first_grade_first_section + "'"
-    +"set @二档第一段='" + second_grade_first_section + "'"
-    +"set @一档基本医疗封顶='" + first_basic_illness_top + "'"
-    +"set @二档基本医疗封顶='" + second_basic_illness_top + "'"
-    +"set @2017年起赔='" + indemnity2017 + "'"
-    +"set @2018年起赔='" + indemnity2018 + "'"
-    +"set @2019年起赔='" + indemnity2019 + "'"
-    +"set @一级起付线='" + first_grade_pay + "'"
-    +"set @基层起付线='" + basic_grade_pay + "'"
-    +"set @二级起付线='" + second_grade_pay + "'"
-    +"set @三级起付线='" + third_grade_pay + "'"
-    +"set @定点起付线='" + fixed_pay + "'"
-    +"set @约定起付线='" + appoint_pay + "'"
-    +"set @居民非定点非约定起付线='" + resident_unfixed_unappoint_pay + "'"
-    +"set @职工非定点非约定起付线='" + staff_unfixed_unappoint_pay + "'"
-
-    +'''set @2017职工年增长率=power(@职工增长率,2017-@年份)
+    @精准扶贫增长率 float,@2017年精准扶贫增长率 float,@2018年精准扶贫增长率 float,@2019年精准扶贫增长率 float '''+'set @年份= ' + year+"set @一级基本医疗给付='" + first_basic_pay + "'"+"set @二级基本医疗给付='" + second_basic_pay + "'"+"set @三级基本医疗给付='" + third_basic_pay + "'"+"set @约定基本医疗给付='" + appoint_basic_pay + "'"+"set @非定点基本医疗给付='" + unfixed_basic_pay + "'"+"set @职工增长率='" + staff_growth + "'"+"set @居民增长率='" + resident_growth + "'"+"set @精准扶贫增长率='" + accurate_growth + "'"+"set @每年增量='" + every_year_growth + "'"+"set @一档大病封顶='" + first_illness_top + "'"+"set @二档大病封顶='" + second_illness_top + "'"+"set @一档第一段='" + first_grade_first_section + "'"+"set @二档第一段='" + second_grade_first_section + "'"+"set @一档基本医疗封顶='" + first_basic_illness_top + "'"+"set @二档基本医疗封顶='" + second_basic_illness_top + "'"+"set @2017年起赔='" + indemnity2017 + "'"+"set @2018年起赔='" + indemnity2018 + "'"+"set @2019年起赔='" + indemnity2019 + "'"+"set @一级起付线='" + first_grade_pay + "'"+"set @基层起付线='" + basic_grade_pay + "'"+"set @二级起付线='" + second_grade_pay + "'"+"set @三级起付线='" + third_grade_pay + "'"+"set @定点起付线='" + fixed_pay + "'"+"set @约定起付线='" + appoint_pay + "'"+"set @居民非定点非约定起付线='" + resident_unfixed_unappoint_pay + "'"+"set @职工非定点非约定起付线='" + staff_unfixed_unappoint_pay + "'"+'''set @2017职工年增长率=power(@职工增长率,2017-@年份)
     set @2018职工年增长率=power(@职工增长率,2018-@年份)
     set @2019职工年增长率=power(@职工增长率,2019-@年份)
     set @2017居民年增长率=power(@居民增长率,2017-@年份)
