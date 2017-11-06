@@ -8,6 +8,7 @@
 
     <script type="text/javascript" src="/static/js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="/static/jquery-easyui/jquery.easyui.min.js"></script>
+    <script type="text/javascript" src="/static/js/echarts.js"></script>
     <title>测算</title>
 
     <script>
@@ -97,7 +98,7 @@
 </div>
 
 <div style="width: 100%;height: 100%;">
-    <table id = "dg_measuring" class="easyui-datagrid" style="height: 500px;width:100%">
+    <table id = "dg_measuring" class="easyui-datagrid" style="height: 200px;width:650px">
 <thead>
 		<tr>
             <th data-options="field:'年份'">年份</th>
@@ -114,6 +115,68 @@
     </thead>
 </table>
 </div>
+
+
+
+
+<!--图表-->
+<div id="main" style="width: 1600px;height:400px;"></div>
+    <script type="text/javascript">
+        // 基于准备好的dom，初始化echarts实例
+        var myChart = echarts.init(document.getElementById('main'));
+
+		var test = new Array()
+		test[0]=174580.85
+		test[1]=102684.53,
+		test[2]=153310.95
+		test[3]=32826.72
+		test[4]=45.37
+		test[5]=0
+
+        // 指定图表的配置项和数据
+        var option = {
+            title: {
+                text: 'ECharts 入门示例'
+            },
+            tooltip: {},
+            legend: {
+                data:['居民<1万','职工<1万','居民>1万','职工>1万']
+            },
+            xAxis: {
+                data: ["医疗总费用","基本医疗支付","范围内费用","累计大病范围内费用","大病支付","二挡支付"]
+            },
+            yAxis: {},
+            series: [{
+                name: '居民<1万',
+                type: 'bar',
+                data: [174580.85, 102684.53, 153310.95, 32826.72,45.37, 0]
+
+            },
+			{
+                name: '居民>1万',
+                type: 'bar',
+                data: [91953.5, 41195.7, 74945.87, 30008.98,8084.64, 0]
+            },
+			{
+                name: '职工<1万',
+                type: 'bar',
+                data: [176194.86,101568.52,158644.74,19113.72,81.58,27043.97]
+            },
+			{
+                name: '职工>1万',
+                type: 'bar',
+                data: [77409.54,35310.69,67036.14,22196.56,7461.57,15302.98]
+            }
+			]
+        };
+
+        // 使用刚指定的配置项和数据显示图表。
+        myChart.setOption(option);
+    </script>
+
+
+
+
 
 <!--点击搜索按钮搜索数据-->
 <script>

@@ -2,7 +2,10 @@ from flask import Flask,render_template
 from flask_bootstrap import Bootstrap
 from flask import *
 import pyodbc
-
+import matplotlib.pyplot as plt
+plt.rcdefaults()
+import numpy as np
+import matplotlib.pyplot as plt
 
 app = Flask(__name__)
 
@@ -84,7 +87,6 @@ def selectSpecialData():
         # print(row)
         # print(u'init:', jsonData)
     return jsonify(jsonData)
-
 
 
 #查询数据函数
