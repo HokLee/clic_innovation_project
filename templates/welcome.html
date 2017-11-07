@@ -74,6 +74,7 @@
                 success:function (result) {
                     //datadrid直接加载传回的json数据
                     var opts = $('#dg').datagrid('loadData',result);
+                    print(result)
 {#                    opts.url = "/selectSpecialData";#}
 {#                    $('#dg').datagrid("load");#}
                 }

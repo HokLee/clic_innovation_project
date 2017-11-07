@@ -136,7 +136,7 @@
         // 指定图表的配置项和数据
         var option = {
             title: {
-                text: 'ECharts 入门示例'
+                text: '城乡大病测算'
             },
             tooltip: {},
             legend: {
@@ -149,7 +149,8 @@
             series: [{
                 name: '居民<1万',
                 type: 'bar',
-                data: [174580.85, 102684.53, 153310.95, 32826.72,45.37, 0]
+{#                data: [174580.85, 102684.53, 153310.95, 32826.72,45.37, 0]#}
+                data: [test[0],test[1],test[2],test[3],test[4],test[5]]
 
             },
 			{
@@ -224,6 +225,7 @@
                 data: data,
                 success:function (result1) {
                     var opts = $('#dg_measuring').datagrid('loadData',result1);
+                    print(result1)
                 }
             });
 
