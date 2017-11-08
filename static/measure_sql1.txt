@@ -1,0 +1,9 @@
+use [精准扶贫]
+    declare @增长率2018 float,@增长率2019 float,@once   float,@年份 float,@序号   int ,@id varchar(100),@once2   float,@序号2   int ,@id2 varchar(100),
+    @once3   float,@序号3   int ,@id3 varchar(100),@once4   float,@序号4   int ,@id4 varchar(100),@二级基本医疗给付 float,@三级基本医疗给付 float,@定点基本医疗给付 float,
+    @2017职工年增长率 float,@2018职工年增长率 float,@2019职工年增长率 float,@2017年起赔 float,@职工增长率 float,@居民增长率 float,
+    @2017居民年增长率 float,@2018居民年增长率 float,@2019居民年增长率 float,@一档基本医疗封顶 float,@二档基本医疗封顶 float,@一档大病封顶 float,@二档大病封顶 float,
+    @一档第一段 float,@二档第一段 float,@一级起付线 float,@二级起付线 float,@三级起付线 float,@基层起付线 float,@定点起付线 float,@约定起付线 float,
+    @居民非定点非约定起付线 float,@职工非定点非约定起付线 float,@2018年起赔 float,@2019年起赔 float,
+    @每年增量 float,@定点医疗机构给付 float,@约定医疗机构给付 float,@非定点医疗机构给付 float,@一级基本医疗给付 float,@约定基本医疗给付 float,@非定点基本医疗给付 float,
+    @精准扶贫增长率 float,@2017年精准扶贫增长率 float,@2018年精准扶贫增长率 float,@2019年精准扶贫增长率 float 
