@@ -7,7 +7,9 @@ plt.rcdefaults()
 import numpy as np
 import matplotlib.pyplot as plt
 import os
+#获取当前文件所在目录的上级目录
 APP_ROOT = os.path.dirname(os.path.abspath(__file__))
+#将多个路径组合后返回
 APP_STATIC = os.path.join(APP_ROOT, 'static')
 
 
@@ -49,7 +51,7 @@ def hello():
     #     print(u'init:',jsonData)
     return render_template('welcome.html')
 
-
+#
 @app.route('/selectSpecialData',methods=['POST'])
 def selectSpecialData():
     data = json.loads(request.get_data())

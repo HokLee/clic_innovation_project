@@ -67,6 +67,7 @@
                 patient.ID = document.getElementById("input_ID").value;
                 var data = JSON.stringify(patient);
                 //alert(data);
+
                 $.ajax({
                 url:"/selectSpecialData",
                 type: "POST",
@@ -77,7 +78,10 @@
                     print(result)
 {#                    opts.url = "/selectSpecialData";#}
 {#                    $('#dg').datagrid("load");#}
-                }
+                },
+                    beforeSend:function () {
+                        alert('正在加载请稍后');
+                    }
             });
         });
         })
